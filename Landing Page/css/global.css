@@ -1,0 +1,117 @@
+/* Text */
+
+.text-center {
+    text-align: center;
+}
+.text-vertical-center {
+    align-items: center;
+}
+
+.heading-small {
+    font-size: 1.15rem;
+    letter-spacing: 0.5rem;
+}
+
+.heading-medium{
+    font-size: 1.5rem
+}
+.heading-big {
+    font: 1.75rem;
+}
+
+/* Colors */
+
+.bg-dark-blue {
+    background-color: #062e51;
+}
+
+.bg-light-blue {
+    background-color: #336ea2;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Buttons */
+
+.btn {
+    margin: 0.5rem 0.25rem;
+    padding: 0.75rem;
+    border-radius: 1rem;
+}
+
+.btn-block {
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: black;
+    width: 100%;
+    margin-left: 0;
+}
+
+.btn-block:hover{
+    background-color: #aaaaaa;
+}
+.btn-github {
+    background-color: rgb(28,33,40);
+    color:white;
+}
+.btn-github:hover {
+    background-color: #181818;
+}
+
+.btn-linkedin {
+    background-color: #0A66C2;
+    color: white;
+}
+.btn-linkedin:hover {
+    background-color: #095199;
+}
+
+.btn-medium {
+    background-color: white;
+    color: #292929;
+    border: 1px solid black;
+}
+
+.btn-medium:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+.discount {
+    background-color: red;
+    padding: 0.25rem;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.title {
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.description {
+    letter-spacing: 1.2px;
+    margin-bottom: 0.5rem;
+    opacity: 0.75;
+}
+
+.instructor {
+    letter-spacing: 1.2px;
+    margin-bottom: 0.5rem;
+    opacity: 0.85;
+    font-size: 0.8rem;
+}
+
+.rating {
+    letter-spacing: 1.2px;
+    margin-bottom: 0.5rem;
+    opacity: 1;
+    font-size: 0.8rem;
+}
+

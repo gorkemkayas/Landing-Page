@@ -1,0 +1,22 @@
+h1 {
+    color: white;
+}
+
+#navbar {
+    flex-direction:column;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+#training .items {
+    flex-direction: column;
+}
+
+#training .items .item {
+    width: 100%;
+}
+
+.courses .course {
+    flex-direction: column;
+    align-items: center;
+}

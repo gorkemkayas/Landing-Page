@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    position: fixed ;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    
+}
+
+#navbar {
+    color: white;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 6rem;
+    
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+#navbar ul li a {
+    padding: 0.75rem;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #336ea2
+}
+
+img {
+    width: 15rem;
+}
+
+#Home {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7.5rem;
+    padding-top: 10rem;
+    border-bottom: 1px solid black;
+    
+    
+}
+#Home img {
+
+    max-width: 100%;
+    height: auto;
+    border-radius: 15%;
+}
+
+#Home .name h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#Home .name p {
+    opacity: 0.6;
+    font-style: italic;
+    margin-bottom: 2.5rem;
+}
+
+#Home .name {
+    color: black;
+    
+}
+
+.properties {
+    @media (max-width:820px)
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* .properties #github{
+    background-color: rgb(28,33,40);
+    margin: 0 0.25rem;
+    padding: 0.75rem;
+    border-radius: 1rem;
+    color:white;
+} */
+
+
+
+/* .properties #github:hover{
+    background-color: #181818;
+}
+
+.properties #linkedin{
+    background-color: #0A66C2;
+    margin: 0 0.25rem;
+    padding: 0.75rem;
+    border-radius: 1rem;
+    color: white;
+
+
+}
+.properties #linkedin:hover{
+    background-color: #095199;
+}
+.properties #medium{
+    background-color: white;
+    margin: 0 0.25rem;
+    padding: 0.75rem;
+    border-radius: 1rem;
+    color: #292929;
+    border: 1px solid black;
+}
+.properties #medium:hover{
+    background-color: rgb(204, 204, 204);
+} */
+
+.nav {
+    position:fixed;
+}
+
+#training {
+    color: white;
+    padding: 1.2rem;
+    
+    
+}
+
+#training .items {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#training .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+#training .items .item:hover {
+    color:greenyellow;
+    opacity: 90%;
+}
+
+.padding-min {
+    padding-bottom: 7.5px;
+}
+
+#courses {
+    color: #333333;
+    padding: 1rem;
+}
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.courses .course {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.courses .course .course-image {
+    margin-right: 0.5rem;
+    position: relative;
+}
+
+.courses .course .course-image img{
+    border-radius: 5px ;
+}
+
+/* .courses .course .course-image span {
+    background-color: red;
+    padding: 0.25rem;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+/* .courses .course .course-info .title {
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+} */
+
+/* .courses .course .course-info .description {
+    letter-spacing: 1.2px;
+    margin-bottom: 0.5rem;
+    opacity: 0.75;
+} */
+
+/* .courses .course .course-info .instructor {
+    letter-spacing: 1.2px;
+    margin-bottom: 0.5rem;
+    opacity: 0.85;
+    font-size: 0.8rem;
+} */
+/* 
+.courses .course .course-info .rating {
+    letter-spacing: 1.2px;
+    margin-bottom: 0.5rem;
+    opacity: 1;
+    font-size: 0.8rem;
+} */
+
+#contact {
+    color: white;
+    padding: 1rem;
+}
+
+#contact label {
+    display: block;
+}
+
+.contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.form-group label{
+    padding: 0.5rem;
+    padding-left: 0;
+}
+
+.form-group input {
+    width: 100%;
+    font-size: 1.25rem;
+}
+.form-group textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    font-size: 1.25rem;
+}
+
+
+.contact-form ul {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.contact-form ul li{
+    size: 1rem;
+    font-size: 2rem;
+}
+.contact-form ul li a:hover{
+    background-color: #062e51;
+    opacity: 0.8;
+}
